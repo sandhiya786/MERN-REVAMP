@@ -3,37 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assignment-3</title>
-</head>
-<body>
-   <h3>ADDED IMAGE VIA LOCAL STORAGE</h3>
-   <img src="./assets/fresh-apple.jpg" width="90px">
-   <h3>ADDED IMAGE VIA CDN</h3>
-   <img src="https://ik.imagekit.io/4qg6rjiwm/mern-revamp/fresh-apple.jpg?updatedAt=1750504664324" width="90px">
-   <h3>ADDED VIDEO VIA CDN</h3>
-   <video src="https://ik.imagekit.io/4qg6rjiwm/mern-revamp/Ed%20Sheeran%20-%20Photograph%20(Official%20Music%20Video).mp4?updatedAt=1750505061843" controls width="300PX"></video>
-   <h3>CREATE A BASIC FORM</h3>
-   <form>
-    <label for="username">Username:</label>
-    <input type="text" placeholder="ENTER USERNAME"><br>
-    <label for="password">Password:</label>
-    <input type="password" placeholder="ENTER PASSWORD"><br>
-    <button type="submit">Submit</button>
-   </form>
-   <h3>HTML ENTITIES</h3>
-   <P>- copyright: &copy;</P>
-   <p>- trademark: &amp;</p>
-   <p>- ampersand: &cent;</p>
+    <title>Assignment-04</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
-   <!-- 
-   1. ! and enter will form the boilerplate of html
-   2. DOCTYPE --shows the version of html to the browser
-   3. The elements which are self-closing and do not have closing tag are called void element. Example: <img>,<br>,<hr>
-   4. The elements helps to define a content and structure using tags.
-      The Attributes are the one which hepls to modify the element and give extra information.
-   5. The html entities used to display symbols or character with the help of & that can't be typed directly into html.Example: &copy;,&lt.
-   6. Meta tag used to give metadata and helps browsers and search engine to understand the page. Example: description,author,keyword.
-   7. The best way to add image is using the img tag and the src attribute where the path from cdn.Example: <img src="path" alt="image">
-    -->
+</head>
+<body class="bg-[#0e0e0e]">
+    <div  class="bg-[url(https://ik.imagekit.io/4qg6rjiwm/mern-revamp/todolistbg.png_updatedAt=1700761069523?updatedAt=1750518491399)]  bg-cover bg-center w-[372px] h-[691px] m-[auto] mt-19 bg-[hsl(0,0%,90%)]">
+  <h1 class="font-[Roboto] text-[#fffffff0] text-[50px] text-center font-[650] leading-[60px]">Todolist</h1>
+  <p class="font-[Roboto] text-[#ffffffb9] pt-7 px-3 text-center">Each day I will accomplish one thing on my todo list.</p>
+  <h2 class="font-[Roboto] text-[#fffffff0] font-[600] text-[20px] pt-2">Read a Book</h2>
+  <p class="font-[Roboto] text-[#ffffffb9] pt-4 leading-5">I don't think that the human race will survive the next thousand years, unless we spread into space.
+    There are too many accidents that can befall life on a single planet. But I'm an optimist...</p>
+    <button class="font-[Roboto] font-[500] text-[#fffffff0] text-[18px] bg-[#FFA61D] border-2 border-2 px-4 py-1 mt-5 ml-[40%] border-b-[black] border-r-[black] border-t-[#73717107] border-l-[#73717107]">Start</button>
+   <p class="text-[#ffffffb9] font-[Roboto] text-[12px] underline ml-[33%] mt-2">Don't skip introduction</p>
+</div>
 </body>
 </html>
